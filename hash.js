@@ -1,9 +1,10 @@
-var Hash = function () {
-    //to do define properties
+var hash = {};
 
-};
+(function() {
 
-Hash.prototype.sha256 = function (string) {
-  //to do SHA256 hashing algorithm
-  
-}
+  hash.sha256 = function(string){
+    //to do: psuedocode for sha256 hashing function
+    
+  };
+
+}).call(this);
